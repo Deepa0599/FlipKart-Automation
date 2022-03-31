@@ -20,5 +20,5 @@ def test_searchProducts(setUp):
     time.sleep(1)
     driver.find_element_by_name("q").send_keys(product)
     time.sleep(1)
-    driver.find_element_by_name("L0Z3Pu").click()
+    driver.find_element_by_class_name("L0Z3Pu").click()
 
